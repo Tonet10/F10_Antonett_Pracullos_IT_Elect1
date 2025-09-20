@@ -11,8 +11,8 @@ import {
 
 const CommentSection = () => {
   const [comments, setComments] = useState([
-    { id: "1", user: "eze kyn", text: "Lagi lamia pre! " },
-    { id: "2", user: "Diether", text: "Tan awa pre lami kaayo " },
+    { id: "1", user: "Ann", text: "HAHAHA " },
+    { id: "2", user: "Rose", text: "Hehe" },
   ]);
 
   const [newComment, setNewComment] = useState("");
@@ -23,7 +23,7 @@ const CommentSection = () => {
 
     const comment = {
       id: Date.now().toString(),
-      user: "Junveil Hans",
+      user: "Ann",
       text: newComment.trim(),
     };
 
